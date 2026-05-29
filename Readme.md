@@ -10,5 +10,17 @@
 - ai的一些工作流设计
 - orm 查本地数据库
 
-### 测试
-能看到我的修改嘛
+### 程序流程设计
+
+桌面程序启动 -> 等待用户输入 -> 输入对话内容 -> 发送信息给API去调用工具
+
+
+#### 接口设计
+
+#### 数据库
+
+任务 先设定下面几个字段：
+
+id name description startTime expectTime endTime taskLevel IsCompleted IsDeleted
+
+#### ui设计
